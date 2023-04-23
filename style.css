@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    background-color: #000;
+    height: 5rem;
+}
+
+.navigation .nav-item {
+    color: #fff;
+    padding: 1.2rem 2.4rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    text-decoration: none;
+}
+
+.navigation .nav-item:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.banner-slide {
+    position: relative;
+}
+
+.banner-slide .slide-img {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+}
+
+.banner-slide .slide-content {
+    position: absolute;
+    bottom: 5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.content-title {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.content-desc {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: calc(100% - 3rem);
+    margin: auto;
+}
+
+.section {
+    padding: 9rem 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+}
+
+.desc {
+    font-size: 1.5rem;
+    color: rgb(147, 147, 147);
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.member-container {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.member-item {
+    width: 15rem;
+}
+
+.member-item .member-img {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.member-item .name {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+}
+
+.contact-content {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.contact-info,
+.contact-form {
+    width: 50%;
+}
+
+.contact-info {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.form-row {
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    color: rgb(143, 143, 143);
+    border: 1px solid #ccc;
+    width: 100%;
+    line-height: 2rem;
+}
+
+.form-input.half-column {
+    width: calc(50% - 0.8rem);
+}
+
+.submit-btn {
+    color: #fff;
+    background-color: #000;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    line-height:2rem;
+    float: right;
+}
+
+.submit-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+.section {
+    padding: 9rem 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+}
+
+.desc {
+    font-size: 1.5rem;
+    color: rgb(147, 147, 147);
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.member-container {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.member-item {
+    width: 15rem;
+}
+
+.member-item .member-img {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.member-item .name {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+}
+
+.contact-content {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.contact-info,
+.contact-form {
+    width: 50%;
+}
+
+.contact-info {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.form-row {
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    color: rgb(143, 143, 143);
+    border: 1px solid #ccc;
+    width: 100%;
+    line-height: 2rem;
+}
+
+.form-input.half-column {
+    width: calc(50% - 0.8rem);
+}
+
+.submit-btn {
+    color: #fff;
+    background-color: #000;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    line-height:2rem;
+    float: right;
+}
+
+.submit-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.map-wrapper .map-iframe iframe {
+    width: 100%;
+    height: 40vw;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    
+}
+
+.social-list .social-item {
+    margin-right: 0.6rem;
+}
+
+.social-item .link {
+    color: gray;
+}
+
+.social-item .link:hover {
+    color: #ccc;
+}
